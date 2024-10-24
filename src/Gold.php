@@ -2,12 +2,15 @@
 
 namespace ForNext\Gold;
 
-use Illuminate\Support\Facades\Date;
-
 class Gold
 {
     public function __construct()
     {
-        return Date::now('Asia/Tehran');
+        //return Date::now('Asia/Tehran');
+    }
+
+    public function fuckLaravel(): string
+    {
+        return 'Fuck Laravel!';
     }
 }
