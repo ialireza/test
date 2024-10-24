@@ -1,6 +1,11 @@
 {
     "name": "fornext/gold",
     "description": "this is test package for return gold price.",
+    "license": "MIT",
+    "keywords": [
+        "Laravel",
+        "GOLD"
+    ],
     "autoload": {
         "psr-4": {
             "ForNext\\Gold\\": "src/"
