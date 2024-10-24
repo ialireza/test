@@ -1,0 +1,26 @@
+{
+    "name": "fornext/gold",
+    "description": "this is test package for return gold price.",
+    "autoload": {
+        "psr-4": {
+            "ForNext\\Gold\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ForNext",
+            "email": "info@ForNext.IR"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ForNext\\Gold\\GoldServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
