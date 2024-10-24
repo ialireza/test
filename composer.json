@@ -26,6 +26,5 @@
                 "ForNext\\Gold\\GoldServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
